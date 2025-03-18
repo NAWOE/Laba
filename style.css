@@ -1,0 +1,274 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3ed; /* Основной фон */
+    color: #333; /* Основной цвет текста */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Стили шапки */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #5f4339; /* Цвет логотипа */
+}
+
+header nav a {
+    color: #5f4339; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #a1887f; /* Цвет ссылок при наведении */
+}
+
+header .contact {
+    text-align: right;
+    color: #5f4339; /* Цвет контактов */
+}
+
+/* Стили основного контента */
+.main-content {
+    padding: 80px 0;
+}
+
+.main-content .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-content .text-content {
+    width: 50%;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    color: #5f4339; /* Цвет заголовка */
+    margin-bottom: 30px;
+}
+
+.main-content button {
+    background-color: #a1887f; /* Цвет кнопки */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main-content button:hover {
+    background-color: #5f4339; /* Цвет кнопки при наведении */
+}
+
+.main-content .image-container {
+    width: 45%;
+}
+
+.main-content .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Стили вторичного контента */
+.secondary-content {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.secondary-content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-content a {
+    color: #a1887f;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: color 0.3s;
+}
+
+.secondary-content a:hover {
+    color: #5f4339;
+}
+
+.secondary-content button {
+    background-color: #a1887f; /* Цвет кнопки */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.secondary-content button:hover {
+    background-color: #5f4339; /* Цвет кнопки при наведении */
+}
+
+/* Стили секции "О доме" */
+.about-section {
+    padding: 50px 0;
+    background-color: #f0ece9; /* Более светлый фон */
+}
+
+.about-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-section .about-image {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.about-section .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-section .about-text {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section .about-text h2 {
+    color: #5f4339;
+    margin-bottom: 20px;
+}
+
+.about-section .about-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-section .about-details .detail {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 22%;
+}
+
+.about-section .about-details .detail h3 {
+    color: #5f4339;
+    margin-bottom: 10px;
+}
+
+/* Стили секции "2 типа квартир" */
+.apartment-types {
+    background-color: #f0ece9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.apartment-types h2 {
+    color: #5f4339;
+    margin-bottom: 10px;
+}
+
+.apartment-types p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.apartment-types .apartment-details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.apartment-types .apartment-details .type {
+    margin: 0 20px;
+}
+
+.apartment-types .apartment-details .type .number {
+    font-size: 2em;
+    color: #5f4339;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.apartment-types .apartment-details .type .description {
+    color: #777;
+}
+
+.apartment-types img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.apartment-types .functional {
+    color: #777;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+.apartment-types .zones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.apartment-types .zones .zone {
+    width: 45%;
+    text-align: center;
+}
+
+.apartment-types .zones .zone h3 {
+    color: #5f4339;
+    margin-bottom: 10px;
+}
+
+.apartment-types .zones .zone .area {
+    font-size: 1.5em;
+    color: #5f4339;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.apartment-types .zones .zone .amenity {
+    color: #777;
+}
+
+/* Стили подвала */
+footer {
+    background-color: #5f4339;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
