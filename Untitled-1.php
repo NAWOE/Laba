@@ -1,0 +1,3 @@
+<?php 
+<йэгащзшнапшгтйащйтптогйа
+nfuyfuytdutyutydut
